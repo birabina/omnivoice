@@ -26,7 +26,7 @@ Entradas Físicas (Controle Híbrido): 01 Joystick Analógico e 06 Botões (Push
 
 Interface de Saída: Conexão USB nativa para emulação direta de periférico.
 
-⚡ Diferenciais Técnicos da Implementação com STM32
+Diferenciais Técnicos da Implementação com STM32
 A transição para a arquitetura ARM Cortex-M do STM32 traz vantagens significativas, mas exige atenção especial a pontos críticos de engenharia de hardware e firmware:
 
 Tolerância e Nível Lógico: O STM32 opera nativamente com nível lógico de 3.3V. A equipe deve garantir que o módulo de voz e as linhas de sinal dos botões estejam referenciados e alimentados corretamente para evitar danos permanentes aos pinos de entrada e saída (GPIOs).
